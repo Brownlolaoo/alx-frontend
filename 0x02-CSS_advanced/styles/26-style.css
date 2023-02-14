@@ -78,7 +78,7 @@ template{display: none;} /* prettier-ignore */
     --nav-item-margin:   0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-    /* button Variables */
+    /* button Section Variables */
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
@@ -265,15 +265,15 @@ ul.row {
     background-color: var(--color-primary);
     text-decoration: none;
 }
-.card-testimonials {
+.card-testimonial {
     text-align: center;
 }
-.card-testimonials .card-avatar {
+.card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
-.card-testimonials .card-quote cite {
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
